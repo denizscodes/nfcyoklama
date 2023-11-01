@@ -1,0 +1,14 @@
+{"student":
+    [{"denizkaraca": [
+        { "Öğrenci No": "123456" ,"İsim": "deniz", "Soyadi": "karaca","Devamsızlık": "0"}
+    ]},{"nebhenaytaş": [
+        { "Öğrenci No": "123457" ,"İsim": "Nebhen", "Soyadi": "Aytaş","Devamsızlık": "0"}
+    ] },{"hasankara": [
+        { "Öğrenci No": "123458" ,"İsim": "Hasan", "Soyadi": "Kara","Devamsızlık": "0"}
+    ] },{"feyyazyiğit": [
+        { "Öğrenci No": "123459" ,"İsim": "Feyyaz", "Soyadi": "Yiğit","Devamsızlık": "0"}
+    ] },{"celalşengör": [
+        { "Öğrenci No": "123450" ,"İsim": "Celal", "Soyadi": "Şengör","Devamsızlık": "0"}
+    ] }
+
+]}

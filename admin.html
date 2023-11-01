@@ -1,0 +1,43 @@
+
+  <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" href="admin.css"/>
+
+        <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+        <script src="admin.js" defer></script>
+        
+        <title>NFC Debug Reader</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="admin-card1">
+            <p></p>
+        </div> 
+        <div class="admin-card2">
+    <p>Teacher Deniz</p>
+    <div class="number"><div><h3>Student List-</h3></div><div><h3 id="lengthh">x</h3></div></div>
+    <input type="text" id="searchInput" placeholder="Ara" />
+    <button onclick="searchInList()">Ara</button>
+    <div class="list-container">
+       
+    
+    <div id="searchResults"></div>
+    <ul id="ul">
+        
+        <li class="li"></li>
+    </ul></div>
+    <div><p>
+        <button onclick="readTag()">NFC Yoklama</button>
+      </p>
+      <pre id="log"></pre>
+    </div>
+</div>
+ </div>
+ 
+   </body>
+</html>
