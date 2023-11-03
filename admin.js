@@ -22,7 +22,7 @@
             }
     
             // Verileri güncelleyin ve POST isteği gönderin
-            fetch('http://127.0.0.1:5500/db.json', {
+            fetch('https://denizscodes.github.io/nfcyoklama/db.json', {
               method: 'POST',
               body: JSON.stringify(data),
               headers: {
