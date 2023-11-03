@@ -7,7 +7,7 @@
       // Hafta içi günlerindeyiz, devamsızlıkları artır
     
       // Öğrenci bilgilerini fetch ile al
-      fetch('db.json')
+      fetch('https://denizscodes.github.io/nfcyoklama/db.json')
         .then(response => response.json())
         .then(data => {
           const studentData = data.student;
