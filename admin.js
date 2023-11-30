@@ -7,7 +7,7 @@
       // Hafta içi günlerindeyiz, devamsızlıkları artır
     
       // Öğrenci bilgilerini fetch ile al
-      fetch('https://denizscodes.github.io/nfcyoklama/db.json')
+      fetch('https://api.codinline.com/db.json')
         .then(response => response.json())
         .then(data => {
           const studentData = data.student;
@@ -22,7 +22,7 @@
             }
     
             // Verileri güncelleyin ve POST isteği gönderin
-            fetch('https://denizscodes.github.io/nfcyoklama/db.json', {
+            fetch('https://api.codinline.com/db.json', {
               method: 'POST',
               body: JSON.stringify(data),
               headers: {
